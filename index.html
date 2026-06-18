@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="id" class="notranslate" translate="no">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google" content="notranslate">
     <title>Aplikasi Perangkat Ajar & Kalender Pendidikan</title>
     
     <script src="https://cdn.tailwindcss.com"></script>
@@ -24,10 +25,10 @@
         }
     </style>
 </head>
-<body class="bg-gray-50 min-h-screen text-gray-800 font-sans">
+<body class="bg-gray-50 min-h-screen text-gray-800 font-sans notranslate">
     <div id="root"></div>
 
-    <script type="text/javascript">
+    <script type="text/javascript" class="notranslate">
         // Import React hooks dan components dari global object
         const { useState, useEffect, useMemo, useRef } = React;
         const e = React.createElement;
@@ -238,7 +239,7 @@
         }
 
         // Render Aplikasi ke DOM root
-        const root = tragedies = ReactDOM.createRoot(document.getElementById('root'));
+        const root = ReactDOM.createRoot(document.getElementById('root'));
         root.render(e(TeachingApp));
     </script>
 </body>
